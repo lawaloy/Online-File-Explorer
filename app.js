@@ -5,7 +5,7 @@ const http = require('http');
 require('./library/respond');
 
 // connection settings
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 //Create Server
 const server = http.createServer(respond);
